@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * Programming is like building a multilingual puzzle,
+ * main - a  Programming is like building a multilingual puzzle,
+ * return: 0 (winning or s success)
  */
 int main(void)
 {
