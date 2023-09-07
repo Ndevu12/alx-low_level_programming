@@ -1,3 +1,4 @@
+#!/bin/bash
 #include <stdio.h>
 /**
  * b4-puts.c:h2: warning: no description found for function main
