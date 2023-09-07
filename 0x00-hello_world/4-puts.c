@@ -1,8 +1,8 @@
 #!/bin/bash
 #include <stdio.h>
 /**
- * b4-puts.c:h2: warning: no description found for function main
- * /
+ * Programming is like building a multilingual puzzle,
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
