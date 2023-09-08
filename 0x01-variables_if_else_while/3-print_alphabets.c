@@ -11,7 +11,6 @@ for (nut = 'a'; nut <= 'z'; nut++)
 {
 putchar(nut);
 }
-putchar('\n');
 /* This isn't a space.*/
 for (nat = 'A'; nat <= 'Z'; nat++)
 {
