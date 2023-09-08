@@ -9,7 +9,8 @@ int main(void)
 	/*This line stands for nothing*/
 	for (num = 0; num < 10; num++)
 	{
-		printf("\n%d", num);
+		printf("%d", num);
 	}
+	printf("\n");
 	return (0);
 }
