@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* *
- * manin - This program will show if a number is psitive or negative.
- * Return: 0(success)
+/**
+ *  main - Entry point
+ *  
+ *  Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -20,7 +21,7 @@ printf("%d is zero\n", n);
 }
 else
 {
-printf("%d is negative\nn", n);
+printf("%d is negative\n", n);
 }
 return (0);
 }
