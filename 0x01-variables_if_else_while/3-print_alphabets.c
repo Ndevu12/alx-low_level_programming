@@ -17,6 +17,5 @@ for (nat = 'A'; nat <= 'Z'; nat++)
 {
 putchar(nat);
 }
-putchar('\n');
 return (0);
 }
