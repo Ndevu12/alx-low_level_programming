@@ -7,9 +7,9 @@ int main(void)
 {
 int a, b, c;
 /*This is what we call to train a brain*/
-for (a = 0; a <= 98; a++)
+for (a = '0'; a <= '98'; a++)
 {
-for (b = a  + 1; b <= 99; b++)
+for (b = a  + 1; b <= '99'; b++)
 {
 for (c = b + 1; c <= '9'; c++)
 {
