@@ -1,12 +1,11 @@
 #include <stdio.h>
 /**
- * main - nothing
+ * main - let me jump
  * Return: always 0 (success)
  */
 int main(void)
 {
 	int a, b;
-	/*Thin means no*/
 	for (a = '0'; a < '9'; a++)
 	{
 		for (b = a + 1; b <= '9'; b++)
@@ -15,16 +14,15 @@ int main(void)
 			{
 				putchar(a);
 				putchar(b);
-				if (a == '8' && b == '9')
+				if (a== '8' && b == '9')
 				{
 					continue;
 				}
-					putchar(',');
+				putchar(',');
 				putchar(' ');
 			}
 		}
+		}
+			putchar('\n');
+			return (0);
 	}
-	putchar('\n');
-return (0);
-}
-
