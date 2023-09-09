@@ -1,10 +1,12 @@
 #include <stdio.h>
 /**
- * main - yweinjm fvdcx
- * Return: always 0(success)
- */int main(void)
+ * main - Entry point
+ * Return: Always 0 (Success)
+*/
+int main(void)
 {
 	int a, b;
+	/*This stands fo nothing*/
 	for (a = 0; a <= 98; a++)
 	{
 		for (b = a  + 1; b <= 99; b++)
