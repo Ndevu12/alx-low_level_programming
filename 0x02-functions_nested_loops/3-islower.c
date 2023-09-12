@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _islower - check for lower chase charactors
+ *@c: - is a charactor to be checked
  * Return: 1 for lowercase or 0 for anything else
  */
 int _islower(int c)
@@ -9,7 +10,7 @@ int _islower(int c)
 	{
 		return (1);
 	}
-	else 
+	else
 	{
 		return (0);
 	}
