@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _isalpha - it will check whether entered values is charactor and evaluate it if it is in upper or lower cases.
