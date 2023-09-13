@@ -7,7 +7,7 @@
 void jack_bauer(void)
 {
 	int i, j, c, d;
-/*let us print these minutes using for loop*/
+	/*let us print these minutes using for loop*/
 	for (i = 0; i <= 2; i++)
 	{
 		for (j = 0; j <=  9; j++)
@@ -18,6 +18,8 @@ void jack_bauer(void)
 				{
 					for (d = 0; d <= 9; d++)
 					{
+						if (i == 2 && j > 3)
+							break;
 						_putchar(i + '0');
 						_putchar(j + '0');
 						_putchar(58);
