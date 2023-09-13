@@ -3,15 +3,16 @@
  * print_alphabet_x10 - Aimed at printing alphabet in ten times
  * Return: nothing
  */
-void print_alphabet_x10()
-{ 
+void print_alphabet_x10(void)
+{
 	char i, j;
- for (i = 'a'; i <= 'z'; i++)
- {
-	 for (j = 'a'; j <= 'z'; j++)
-	 {
-		 _putchar(j);
-	 }
-	 _putchar('\n');
- }
+	/*LETS PRINT ALPHABET*/
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		for (j = 'a'; j <= 'z'; j++)
+		{
+			_putchar(j);
+		}
+		_putchar('\n');
+	}
 }
