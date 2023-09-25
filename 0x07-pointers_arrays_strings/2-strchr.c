@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strchr - pointing function 
+ * _strchr - pointing function
  * @s: input a
  * @c: input b
  * Return: Always 0 (Success)
