@@ -1,1 +1,3 @@
  This repo is for c language
+ It is aimed at teaching low level programming
+Dealing with algorithm and data structures ...
