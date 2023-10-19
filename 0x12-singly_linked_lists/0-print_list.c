@@ -19,5 +19,6 @@ size_t print_list(const list_t *h)
 		len++;
 		ptr = ptr->next;
 	}
+	_putchar('\0');
 	return (len);
 }
