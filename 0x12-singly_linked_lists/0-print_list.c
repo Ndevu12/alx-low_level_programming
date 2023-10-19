@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "lists.h"
 /**
  * print_list - This function print a list of data stored in a linked list
@@ -6,19 +7,18 @@
  */
 size_t print_list(const list_t *h)
 {
-	const list_t *ptr = h;
 	size_t len = 0;
 
-	while (ptr != NULL)
+	while (h != NULL)
 	{
-		if (ptr->str == NULL)
+		if (h->str == NULL)
 			printf("[0] (nil)\n");
 		else
-			printf"[%d] %s\n", ptr->len, ptr->str);
+			printf("[%d] %s\n", h->len, h->str);
 
 		len++;
-		ptr = ptr->next;
+		h = h->next;
 	}
-	_putchar('\0');
 	return (len);
+	printf("\n");
 }
