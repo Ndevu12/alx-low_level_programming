@@ -1,5 +1,9 @@
 #ifndef MAI_H
 #define MAIN_H
+/**
+ * header file containing all prototype
+ * and all library needed for this project
+ */
 
 #include <unistd.h>
 #include <sys/types.h>
