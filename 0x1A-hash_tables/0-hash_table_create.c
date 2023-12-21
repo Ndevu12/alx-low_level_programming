@@ -1,4 +1,4 @@
-#include "hash_tables.h" 
+#include "hash_tables.h"
 
 
 /**
@@ -14,20 +14,20 @@ hash_table_t *hash_table_create(unsigned long int size)
 	if (size == 0)
 		return (NULL);
 
-	head = (hash_table_t*) malloc(sizeof(hash_table_t));
-	if (head == NULL)
+	head = (hash_table_t *)malloc(sizeof(hash_table_t));
+	if (!head)
 		return (NULL);
 
 	head->size = size;
-	head->array = (hash_table_t**) calloc(head->size, sizeof(hash_table_t));
-	if (head->array == NULL)
+	head->array = calloc(head->size, sizeof(hash_table_t *));
+	if (!head->array)
 	{
-		free(head->array);
+		free(head);
 		return (NULL);
 	}
 
 	for (i = 0; i < head->size; i++)
-		ht->array[i] = NULL;
+		head->array[i] = NULL;
 
 	return (head);
 }
